@@ -1,0 +1,358 @@
+.bg-image {
+  background-image: url("https://source.unsplash.com/1200x900/?gym");
+  background-size: cover;
+  background-position: center;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Muli", sans-serif;
+  color: #a9a9a9;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------------
+  Helper CSS
+-----------------------*/
+
+.section-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.section-title span {
+  font-size: 16px;
+  color: #f36100;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-title h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.spad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.spad-2 {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+  color: #fff;
+}
+
+/* buttons */
+
+.primary-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 17px 30px 16px;
+  color: #ffffff;
+  background: #f36100;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.primary-btn.btn-normal {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.primary-btn.btn-normal:hover {
+  background: #f36100;
+  border-color: #f36100;
+}
+
+/* Preloder */
+
+
+
+/*---------------------
+  ChoseUs Section
+-----------------------*/
+
+ .choseus-section {
+  background: #0a0a0a;
+  padding-bottom: 70px;
+} 
+.cs-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cs-item:hover span {
+  background: #f36100;
+  color: #ffffff;
+}
+
+.cs-item span {
+  height: 90px;
+  width: 90px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+  color: #f36100;
+  line-height: 90px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cs-item h4 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+/*---------------------
+  Classes Section
+-----------------------*/
+.classes-section {
+  background: #151515;
+  padding-bottom: 80px;
+}
+
+.classes-section .section-title {
+  margin-bottom: 35px;
+}
+
+.class-item {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.class-item .ci-pic img {
+  min-width: 100%;
+}
+
+.class-item .ci-text {
+  background: #0a0a0a;
+  position: relative;
+  padding: 10px 30px 26px 30px;
+  z-index: 1;
+}
+
+.class-item .ci-text:after {
+  position: absolute;
+  left: -5px;
+  top: -44px;
+  height: 100px;
+  width: 600px;
+  border-top: 4px solid #464646;
+  background: #0a0a0a;
+  content: "";
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  z-index: -1;
+}
+
+.class-item .ci-text span {
+  color: #f36100;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.class-item .ci-text h5 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.class-item .ci-text h4 {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.class-item .ci-text a {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.1);
+  line-height: 46px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  right: 30px;
+  bottom: 26px;
+}
+/*---------------------
+  Banner Section
+-----------------------*/
+.banner-section {
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+} 
+.bs-text.service-banner .bt-tips {
+  margin-bottom: 35px;
+}
+
+.bs-text h2 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.bs-text .bt-tips {
+  font-size: 20px;
+  color: #c4c4c4;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.bs-text .primary-btn {
+  background: transparent;
+  border: 2px solid #f36100;
+}
+
+.bs-text .play-btn {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  background: #f36100;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+} 
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1650px) and (max-width: 1920px) {
+  .nav-menu ul li {
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+
+/* Tablet Device = 768px */
+
+
+/* Wide Mobile = 480px */
+
+
+/* Small Device = 320px */
+
